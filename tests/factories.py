@@ -34,19 +34,15 @@ class ProductFactory(factory.Factory):
     name = FuzzyChoice(
         choices=[
             "Hat",
-            "Shirt",
             "Pants",
-            "Nuts",
-            "Bread",
-            "Eggs",
-            "Lamps",
-            "Plates",
-            "Spoon",
-            "Tyre",
-            "Shiner",
-            "WashCloth",
+            "Shirt",
+            "Apple",
+            "Banana",
+            "Pots",
+            "Towels",
+            "Ford",
+            "Chevy",
             "Hammer",
-            "ScrewDriver"
             "Wrench"
         ]
     )
